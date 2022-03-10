@@ -2,4 +2,4 @@
 ### (Work in progress)
 Library to render an ER-model diagram in Chen's notation using Graphviz.
 
-<img src="ERD_8e13f3a2-9e13-4d93-b64e-1e9aeb1dfda4.svg">
+<img alt="Entity Relation Diagram" src="ERD_a113330f-289d-4793-9e63-9bdf21e8ee45.svg">

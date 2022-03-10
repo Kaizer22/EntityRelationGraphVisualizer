@@ -22,8 +22,8 @@ public class Main {
         Nissan nissan = new Nissan();
         var g = new EntityRelationGraph(
                 List.of(
-                        new Relation(ford, car, RelationType.ONE_TO_0_MANY, "Manufactures"),
-                        new Relation(nissan, car, RelationType.ONE_TO_0_MANY, "Manufactures"),
+                        new Relation(ford, car, RelationType.ONE_TO_0_MANY, "Produces"),
+                        new Relation(nissan, car, RelationType.ONE_TO_0_MANY, "Produces"),
                         new Relation(carShop, car,RelationType.ONE_TO_0_MANY, "Sells")
                 ),
                 List.of(ford, carShop, nissan, car)
